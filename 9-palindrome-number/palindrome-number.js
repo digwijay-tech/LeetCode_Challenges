@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isPalindrome = function (x) {
-    
+   
         let revPal = x.toString().split("");
         j = 0;
         i = revPal.length - 1;
@@ -14,5 +14,5 @@ var isPalindrome = function (x) {
         }
         revPal = parseInt(revPal.join(""));
         return x === revPal;
-   
+
 };
